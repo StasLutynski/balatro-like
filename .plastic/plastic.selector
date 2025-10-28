@@ -1,0 +1,4 @@
+repository "cards2.0/cards2.0@4662003@cloud"
+  path "/"
+    br "/main"
+    co "/main"
