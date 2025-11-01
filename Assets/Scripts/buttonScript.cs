@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class buttonScript : MonoBehaviour, IPointerClickHandler
 {
-    
+    public GameObject cardSpawner;
     public void OnPointerClick(PointerEventData pointerEventData)
              {
                      //Use this to tell when the user right-clicks on the Button
@@ -18,6 +18,7 @@ public class buttonScript : MonoBehaviour, IPointerClickHandler
                  if (pointerEventData.button == PointerEventData.InputButton.Left)
                  {
                     Debug.Log(name + " Game Object Left Clicked!");
+                    
                  }
              }
 }
